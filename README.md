@@ -9,6 +9,7 @@ This project was undertaken as part of the CPE19: Emerging Technologies in CPE c
 * **UI/UX Principles:** I explored visual design techniques like parallax scrolling and implemented a Carousel component, enhancing the website's visual appeal and user interaction.
 * **API Integration:** I experimented with API integration for displaying YouTube videos before opting for a more straightforward embedded link approach.
 * **Responsive Design & Frameworks:** I recognized the importance of responsive design and the potential benefits of utilizing front-end frameworks (e.g., React, Angular, Vue.js) to streamline development and improve maintainability.
+* **Image Editing:** I picked up some basic image editing skills in Adobe Photoshop, which helped me refine the visual elements of the website.
 
 ## Reflections
 
