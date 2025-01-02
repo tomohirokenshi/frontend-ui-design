@@ -1,5 +1,6 @@
 # Frontend UI Design
 
+https://tomohirokenshi.github.io/frontend-ui-design/
 This project was undertaken as part of the CPE19: Emerging Technologies in CPE course. Initially, I approached this project with some apprehension due to my unfamiliarity with CSS. While I initially preferred drag-and-drop web building tools, I gradually gained a deeper understanding of CSS and its role in styling web pages. 
 
 ## Key Learnings
