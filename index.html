@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI Design Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <style>
+      @font-face {
+        font-family: "CustomFont";
+        src: url("zh-cn.ttf") format("truetype");
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="Background.png" class="background" />
+        <img src="Flowersv2.png" class="middleground" />
+        <img src="Tabibito.png" class="foreground" />
+      </header>
+      <section>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide--one">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#mod1"
+              >
+                The Beginning
+              </button>
+              <div>
+                <p>"Step Into a Vast Magical World of Adventure"</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide--two">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#mod2"
+              >
+                Read More
+              </button>
+              <div>
+                <h2>Prologue</h2>
+                <p>The Outlander Who Caught the Wind</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide--three">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#mod3"
+              >
+                Read More
+              </button>
+              <div>
+                <h2>Chapter I</h2>
+                <p>Farewell, Archaic Lord</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide--four">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#mod4"
+              >
+                Read More
+              </button>
+              <div>
+                <h2>Chapter II</h2>
+                <p>Omnipresence Over Mortals</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide--five">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#mod5"
+              >
+                Read More
+              </button>
+              <div>
+                <h2>Chapter III</h2>
+                <p>Truth Amongst the Pages of Purana</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide--six">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#mod6"
+              >
+                Read More
+              </button>
+              <div>
+                <h2>Chapter IV</h2>
+                <p>Masquerade of the Guilty</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+
+    <div
+      class="modal fade"
+      id="mod1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img src="Traveler_Chapter.webp" width="58" height="58" />
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Travelers from Afar
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              The god took away your only kin, and you were sealed and cast into
+              a deep slumber. Upon your awakening, you wandered alone for a time
+              until you met a strange companion named Paimon, thus beginning
+              your journey through the continent of Teyvat...
+            </p>
+          </div>
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/TAlKhARUcoY?si=OQNCbnhKptVa3myp"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="mod2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img src="Emblem_Mondstadt.webp" width="58" height="58" />
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              The Outlander Who Caught the Wind
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              The Traveler and Paimon arrive in Mondstadt city to find it being
+              terrorized by a dragon called Stormterror. They work together with
+              the Knights of Favonius to resolve the problem. They meet a
+              carefree bard named Venti, and learn that Stormterror – whose real
+              name is Dvalin – is Venti's friend and has been corrupted by the
+              Abyss Order. Venti reveals himself to be Barbatos, the Anemo
+              Archon, and purifies Dvalin with the Traveler. After solving the
+              crisis, Venti and the Traveler are ambushed by La Signora, the
+              Eighth Fatui Harbinger, who steals Venti's Gnosis. After
+              recovering, Venti suggests the Traveler to attend a Ritual of
+              Descension in Liyue as they will have to wait for next year should
+              they miss.
+            </p>
+          </div>
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/sor_4o6XvMA?start=40&end=1116&si=B7ciVWYREZJ_MqhF"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="mod3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img src="Emblem_Liyue.webp" width="58" height="58" />
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Farewell, Archaic Lord
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              The Traveler and Paimon go to Liyue Harbor to attend a ritual for
+              Rex Lapis, only for him descend lifeless from the sky. They are
+              assisted by the mortician Zhongli and the Eleventh Fatui
+              Harbinger, Tartaglia, in performing a rite of farewell for the
+              Archon, but Tartaglia betrays them and attempts to steal Rex
+              Lapis's Gnosis. After this plot is foiled by The Traveler,
+              Tartaglia summons the ancient serpent god Osial to attack Liyue,
+              but the adepti and humans successfully defend the city. Later, The
+              Traveler learns that Zhongli is actually Rex Lapis and that the
+              Archon has retired, exchanging his Gnosis with La Signora. Soon
+              thereafter, The Traveler and Paimon meet Dainsleif, a mysterious
+              stranger who assists them in investigating the Abyss Order's plot
+              to overthrow Celestia. The Traveler's lost twin is revealed as the
+              leader of the Abyss Order, but they refuse to reunite. Dainsleif
+              chases after the twin, while The Traveler continues their mission.
+            </p>
+          </div>
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/sor_4o6XvMA?start=1116&end=2563&si=B7ciVWYREZJ_MqhF"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="mod4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img src="Emblem_Inazuma.webp" width="58" height="58" />
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Omnipresence Over Mortals
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              The Traveler and Paimon arrive in the isolationist nation of
+              Inazuma and learn that its Archon, the Raiden Shogun, has been
+              confiscating Inazumans' Visions. After barely escaping the
+              Shogun's forces, The Traveler and Paimon join a band of
+              separatists on Inazuma's Watatsumi Island before meeting
+              Scaramouche, the Sixth Fatui Harbinger. Though he knocks The
+              Traveler and Paimon unconscious, Yae Miko – the Shogun's familiar
+              – grants him Raiden's Gnosis in exchange for their lives. With
+              Miko's help, The Traveler battles and defeats the Shogun, and
+              convinces her to repeal her restrictive policies. After returning
+              to Liyue, the Traveler reunites with Dainsleif in The Chasm. The
+              Traveler experiences a vision of their twin in Khaenri'ah, feeling
+              torn between joining them and defeating the Abyss Order. Dainsleif
+              tells The Traveler that they must choose between Teyvat or their
+              twin before departing once more.
+            </p>
+          </div>
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/sor_4o6XvMA?start=2563&end=4724&si=B7ciVWYREZJ_MqhF"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="mod5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img src="Emblem_Sumeru.webp" width="58" height="58" />
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Truth Amongst the Pages of Purana
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              The Traveler and Paimon journey to Sumeru in search of Lesser Lord
+              Kusanali, the Dendro Archon, but are unable to speak with her due
+              to her imprisonment by the Akademiya. The Traveler eventually
+              meets her human vessel, Nahida, within a dream, and discovers that
+              the Akademiya's sages have partnered with Dottore, the Second
+              Fatui Harbinger, to overthrow Kusanali and install Scaramouche as
+              an artificial god. With the help of key individuals in Sumeru, The
+              Traveler thwarts the sages' plot. The Traveler then meets with
+              Kusanali, who provides valuable information about their twin and
+              suggests that they visit Focalors, the Archon of Fontaine.
+              Afterward, The Traveler runs into Dainsleif before having a vision
+              of their sibling's encounter with a Khaenri'ahn named Chlothar
+              Alberich, the founder of the Abyss Order, as well as with a
+              mysterious "Sinner".
+            </p>
+          </div>
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/sor_4o6XvMA?start=4724&end=6136&si=B7ciVWYREZJ_MqhF"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="mod6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img src="Emblem_Fontaine.webp" width="58" height="58" />
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Masquerade of the Guilty
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              The Traveler and Paimon travel to Fontaine to meet with Focalors,
+              the Hydro Archon, also known as Lady Furina. They learn of the
+              circulating prophecy that Fontaine would be flooded, leaving only
+              the Hydro Archon weeping on her throne. The Traveler and Paimon
+              become entangled in a case of serial killings and discover that a
+              mysterious substance known as Primordial Seawater can dissolve
+              Fontainians into water. Amidst the concerns of Primordial Seawater
+              flooding, Furina is revealed to be a cursed human instead of an
+              Archon, split from Focalors' divinity as she worked to overturn
+              the prophecy: a punishment for Egeria, the previous Hydro Archon,
+              who had created humans using the power of Primordial Seawater
+              without the Celestia's permission. Having accumulated enough
+              Indemnitium (power), Focalors sacrifices herself, destroying the
+              Hydro Archon's Divine Throne and thus restoring power to
+              Neuvillette, who saves Fontainians from the prophecy by turning
+              them into true humans, preventing them from being dissolved. After
+              the flood subdues, the Traveler meets Neuvillette who reveals that
+              the Gnosis was the "remains" of the Descender and suggests the
+              Traveler to head to Natlan where "the dragons of Natlan have
+              undergone long years of development and evolution". Afterwards,
+              the Traveler returns to Sumeru and meets Caribert, son of Clothar
+              Alberich, who reveals that the Abyss Order's masterplan, the Loom
+              of Fate, has entered operation.
+            </p>
+          </div>
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/sor_4o6XvMA?start=6136&end=9262&si=B7ciVWYREZJ_MqhF"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
