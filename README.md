@@ -1,4 +1,4 @@
-# Frontend UI Design - CPE19 Project
+# Frontend UI Design
 
 This project was undertaken as part of the CPE19: Emerging Technologies in CPE course. Initially, I approached this project with some apprehension due to my unfamiliarity with CSS. While I initially preferred drag-and-drop web building tools, I gradually gained a deeper understanding of CSS and its role in styling web pages. 
 
